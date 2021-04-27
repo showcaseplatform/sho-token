@@ -590,9 +590,9 @@ pragma solidity ^0.5.0;
 
 contract Token is ERC20, ERC20Detailed, ERC20Burnable, Ownable {
 
-    string private _name = "DAO Maker Token";
-    string private constant _symbol = "DAO";
-    uint   private constant _numTokens = 312000000;
+    string private _name = "Showcase Token";
+    string private constant _symbol = "SHO";
+    uint   private constant _numTokens = 120000000;
     
     event NameChanged(string newName, address by);
 
